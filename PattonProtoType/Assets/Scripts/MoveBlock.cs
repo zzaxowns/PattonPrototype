@@ -43,7 +43,7 @@ public class MoveBlock : MonoBehaviour
 		else if (x > 4) { isRight = false; }
 	}
 
-	float getSpeed() {
+	public float getSpeed() {
 		return isRight == true ? moveSpeed : -1 * moveSpeed;
 	}
 }
